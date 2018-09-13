@@ -5,10 +5,10 @@ Created on 2018/09/11
 @filename: 域名提取钓鱼网站.py
 @author: yanghang
 Description:
+    1.通过读取1.txt中所给内容，调用谷歌浏览器，自动打开
 """
 import os
 from selenium import webdriver
-import time
 
 def readFile(filepath,filename):
     """
