@@ -37,7 +37,7 @@ def open_url(url):
 
 if __name__ == '__main__':
     filepath = os.getcwd()
-    filename='3.txt'
+    filename='1.txt'
     result_list = readFile(filepath, filename)
     print(len(result_list))
     set_list = set(result_list)
