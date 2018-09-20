@@ -11,7 +11,9 @@ import os
 
 package_path = os.getcwd()+os.sep+"utils"
 sys.path.append(package_path)
-from PropertiesUtiil import Properties
+from PropertiesUtils import Properties
 
 dictProperties=Properties("constant.properties").getProperties()
-print(dictProperties)
+
+print(dictProperties['ftp'])
+print(dictProperties['ftp']['username'])
